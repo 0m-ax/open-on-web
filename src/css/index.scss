@@ -1,0 +1,24 @@
+
+@import "../../node_modules/materialize-css/sass/components/color-variables";
+@import "../../node_modules/materialize-css/sass/components/color-classes";
+$primary-color: color("purple", "lighten-2");
+$primary-color-light: lighten($primary-color, 15%);
+$primary-color-dark: darken($primary-color, 15%);
+$secondary-color: color("purple", "lighten-1");
+@import "../../node_modules/materialize-css/sass/materialize.scss";
+
+.icon-fit{
+	.material-icons {
+		font-size: inherit;
+	}
+}
+
+.hidden{
+	display: none;
+}
+.settings-link{
+	z-index: 9999;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+}
