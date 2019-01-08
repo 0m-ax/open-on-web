@@ -1,13 +1,13 @@
 [
-  "dist/chunk-99df54be.js",
-  "dist/index.html",
-  "dist/index.js",
-  "dist/main.js",
-  "dist/manifest.json",
-  "dist/share.html",
-  "dist/share.js",
-  "dist/css/index.css",
-  "dist/img/open-in-app-192.png",
-  "dist/img/open-in-app.png",
-  "dist/img/open-in-app.svg"
+  "chunk-99df54be.js",
+  "index.html",
+  "index.js",
+  "main.js",
+  "manifest.json",
+  "share.html",
+  "share.js",
+  "css/index.css",
+  "img/open-in-app-192.png",
+  "img/open-in-app.png",
+  "img/open-in-app.svg"
 ]
