@@ -54,7 +54,7 @@ gulp.task('js', async function () {
   })
   gulp.task('cache', function () {
     return gulp.src(['dist/**/*','!dist/cache.json','!dist/service-worker.js'])
-    .pipe(fileList('cache.json'))
+    .pipe(fileList('cache.json',{ relative: true }))
     .pipe(gulp.dest('./dist'))
   })
   gulp.task('bundle',gulp.series([gulp.parallel(['html','css','js','img','manifest']),'cache']))
