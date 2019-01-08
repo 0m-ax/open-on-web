@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="manifest" href="/manifest.json">
+    <title>Document</title>
+    <meta name="theme-color" content="#3367D6" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+        <ul class="sidenav" id="settings-nav">
+
+                <div class="container">
+                    <div class="input-field">
+                        <select id="open-settings">
+                            <option value="0" selected>Do not auto open</option>
+                            <option value="1">Auto open if only one url in content</option>
+                            <option value="2">Auto open first url</option>
+                        </select>
+                        <label>Auto open behaviour</label>
+                    </div>
+    
+        </ul>
+        <a href="#!" id="settings-link"  data-target="settings-nav" class="settings-link waves-effect waves-circle waves-light btn-flat secondary-content sidenav-trigger">
+                <i class="material-icons">settings</i>
+        </a>
+    <div class="container">
+            <div id="redirecting" class="progress hidden">
+                    <div class="indeterminate"></div>
+            </div>
+        <div class="section" id="main">
+        </div>
+    </div>
+    <div class="tap-target" data-target="settings-link">
+            <div class="tap-target-content">
+              <h5>Always open first link</h5>
+              <p>A bunch of text</p>
+            </div>
+          </div>
+                  
+    <script type="module" src="main.js"></script>
+    <script type="module" src="share.js"></script>
+</body>
+
+</html>
